@@ -1,0 +1,437 @@
+Erigo Healthcare Solutions 
+
+SOLUTIONS - PAGE
+
+Revenue Cycle Management
+
+End-to-End RCM
+
+Patient Access
+
+Mid-Revenue Cycle
+
+Business Office
+
+Care Coordination
+
+Phone & Message Triage
+
+Customer Contact Center
+
+Remote Patient Management
+
+Health Data Curation
+
+Clinical Trial Data Solutions
+
+Real-World Data Curation
+
+AI/ML Model Validation & Enablement
+
+Registry Data Management
+
+Payer Operations
+
+Value-Based Care
+
+Provider & Member Engagement
+
+Administrative Support
+
+Drug Access & Affordability
+
+Member Enrollment
+
+Benefit Verification
+
+Prior Authorization
+
+Patient Co-Pay Assistance
+
+1. REVENUE CYCLE MANAGEMENT
+Main Page: Revenue Cycle Management
+Page Introduction
+
+Revenue performance is the financial backbone of every healthcare organization. Increasing claim complexity, regulatory changes, staffing shortages, and payer scrutiny require a structured and disciplined revenue cycle approach.
+
+Erigo Healthcare Solutions delivers end-to-end revenue cycle services designed to strengthen financial stability while maintaining compliance and accuracy. Our teams operate as an extension of your organization, improving workflows across front-end, mid-cycle, and back-end functions.
+
+What We Focus On
+
+Accuracy at the first point of data capture
+
+Reduction in preventable denials
+
+Faster reimbursement cycles
+
+Transparent reporting and accountability
+
+Continuous process optimization
+
+Measurable Outcomes
+
+Improved clean claim rate
+
+Reduction in days in accounts receivable
+
+Higher net collection percentage
+
+Reduced write-offs
+
+1.1 End-To-End RCM
+Overview
+
+Our End-to-End Revenue Cycle Management solution covers the complete patient financial journey — from scheduling through final payment reconciliation.
+
+We implement standardized workflows, quality checkpoints, and performance monitoring across all revenue cycle stages.
+
+Scope of Services
+
+Patient demographic verification
+
+Insurance validation
+
+Charge entry and reconciliation
+
+Medical coding and documentation review
+
+Claims submission
+
+Denial tracking and appeals
+
+Payment posting
+
+Accounts receivable follow-up
+
+How We Add Value
+
+We identify revenue leakage points and implement corrective measures supported by analytics. Our approach emphasizes prevention over correction.
+
+Impact
+
+Organizations experience improved revenue predictability, better operational efficiency, and reduced administrative burden.
+
+1.2 Patient Access
+Overview
+
+The accuracy of front-end processes determines downstream financial success. Errors during registration or authorization can significantly increase denials.
+
+Erigo strengthens patient access operations through structured workflows and real-time verification processes.
+
+Services Include
+
+Insurance eligibility verification
+
+Benefits investigation
+
+Prior authorization initiation
+
+Financial counseling support
+
+Pre-registration review
+
+Appointment scheduling assistance
+
+Operational Benefits
+
+Reduced registration errors
+
+Fewer front-end denials
+
+Improved patient financial transparency
+
+Increased point-of-service collections
+
+1.3 Mid-Revenue Cycle
+Overview
+
+Mid-cycle processes ensure clinical documentation supports compliant and optimized reimbursement.
+
+Services
+
+Clinical documentation improvement support
+
+Medical coding services
+
+Coding audits and quality review
+
+Charge capture validation
+
+Revenue integrity analysis
+
+Value Delivered
+
+Improved coding accuracy
+
+Reduced compliance risks
+
+Enhanced reimbursement alignment
+
+Minimized audit exposure
+
+1.4 Business Office
+Overview
+
+Our Business Office services focus on post-claim financial performance.
+
+Services
+
+Accounts receivable management
+
+Denial analysis and appeals
+
+Underpayment identification
+
+Payer correspondence handling
+
+Patient billing and collections support
+
+Results
+
+Accelerated cash flow
+
+Lower bad debt
+
+Improved collection rates
+
+Structured denial prevention strategy
+
+2. CARE COORDINATION
+Main Page: Care Coordination
+
+Effective care coordination improves outcomes, reduces avoidable utilization, and strengthens patient engagement.
+
+Erigo supports healthcare organizations with structured communication models that enhance patient connectivity throughout the care journey.
+
+2.1 Phone & Message Triage
+Overview
+
+Efficient triage ensures patients receive timely and appropriate care guidance.
+
+Services
+
+Symptom triage documentation
+
+Appointment prioritization support
+
+Provider message routing
+
+Call documentation within EMR workflows
+
+Outcomes
+
+Improved response times
+
+Reduced unnecessary visits
+
+Enhanced patient satisfaction
+
+2.2 Customer Contact Center
+Overview
+
+Our healthcare-focused contact center delivers structured, compliant patient and member engagement.
+
+Services
+
+Appointment reminders
+
+Follow-up calls
+
+Payment reminder outreach
+
+Member inquiry handling
+
+Multichannel communication support
+
+Benefits
+
+Reduced no-show rates
+
+Improved communication consistency
+
+Stronger patient retention
+
+2.3 Remote Patient Management
+Overview
+
+Remote patient engagement supports chronic care management and follow-up adherence.
+
+Services
+
+Outreach for care gap closure
+
+Monitoring support coordination
+
+Post-discharge follow-up calls
+
+Medication adherence reminders
+
+Impact
+
+Lower readmission rates
+
+Improved continuity of care
+
+Increased patient accountability
+
+3. HEALTH DATA CURATION
+Main Page: Health Data Curation
+
+Accurate healthcare data supports research, compliance, analytics, and innovation.
+
+Erigo delivers structured clinical data management services tailored to life sciences, providers, and payers.
+
+3.1 Clinical Trial Data Solutions
+Overview
+
+We support clinical research through precise data abstraction and quality review.
+
+Services
+
+Chart abstraction
+
+Data validation
+
+Case report form review
+
+Protocol compliance checks
+
+Value
+
+Faster study timelines
+
+High-quality regulatory submission support
+
+3.2 Real-World Data Curation
+Overview
+
+Real-world evidence supports outcome analysis and market access strategies.
+
+Services
+
+Data extraction from clinical records
+
+Standardized dataset creation
+
+Quality audits
+
+Structured reporting
+
+3.3 AI/ML Model Validation & Enablement
+Overview
+
+We support healthcare AI initiatives by validating data integrity and annotation accuracy.
+
+Services
+
+Clinical data labeling
+
+Model validation review
+
+Bias and accuracy assessment
+
+Quality benchmarking
+
+3.4 Registry Data Management
+Overview
+
+Registries require ongoing data accuracy and governance.
+
+Services
+
+Data abstraction
+
+Longitudinal tracking
+
+Data quality audits
+
+Reporting and analytics support
+
+4. PAYER OPERATIONS
+Main Page: Payer Operations
+
+Erigo supports health plans with administrative and clinical operational services.
+
+4.1 Value-Based Care
+Overview
+
+Value-based models require accurate documentation and risk management.
+
+Services
+
+Risk adjustment chart review
+
+HCC coding validation
+
+Quality measure support
+
+Data reconciliation
+
+4.2 Provider & Member Engagement
+Services
+
+Provider onboarding support
+
+Member outreach
+
+Network data validation
+
+Provider communication coordination
+
+4.3 Administrative Support
+Services
+
+Claims review assistance
+
+Grievance handling support
+
+Appeals coordination
+
+Credentialing documentation processing
+
+5. DRUG ACCESS & AFFORDABILITY
+Main Page: Drug Access & Affordability
+
+Access to medication requires structured coordination across payers, providers, and patients.
+
+Erigo provides support services that simplify enrollment, verification, and financial assistance workflows.
+
+5.1 Member Enrollment
+
+Intake processing
+
+Documentation verification
+
+Program eligibility validation
+
+Case tracking
+
+5.2 Benefit Verification
+
+Coverage confirmation
+
+Plan analysis
+
+Out-of-pocket cost estimation
+
+Benefit explanation support
+
+5.3 Prior Authorization
+
+Authorization submission
+
+Documentation coordination
+
+Status follow-up
+
+Appeal preparation support
+
+5.4 Patient Co-Pay Assistance
+
+Financial eligibility review
+
+Co-pay program coordination
+
+Payment processing support
+
+Ongoing case management

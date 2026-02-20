@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Care Coordination — Erigo Healthcare Solutions</title>
+  <meta name="description" content="Erigo Healthcare's Care Coordination services improve patient outcomes and reduce avoidable utilization through structured communication models that enhance patient connectivity."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@400,0&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ══════════════════════ NAVBAR ══════════════════════ -->
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="logo">
+      <span class="material-symbols-outlined logo-icon">health_and_safety</span>
+      <div>
+        <span class="logo-text-primary">ERIGO</span>
+        <span class="logo-text-sub">Healthcare Solutions</span>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a href="rcm.html" class="active">Solutions</a>
+      <a href="index.html#who-we-serve">Who We Serve</a>
+      <a href="index.html#insights">Insights</a>
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#contact" class="btn btn-primary nav-cta">Contact Us</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="container" style="display:flex;flex-direction:column;gap:4px;">
+      <a href="index.html">Home</a>
+      <a href="rcm.html">Revenue Cycle Management</a>
+      <a href="care-coordination.html">Care Coordination</a>
+      <a href="data-curation.html">Health Data Curation</a>
+      <a href="index.html#contact" class="btn btn-coral" style="margin-top:8px;text-align:center;">Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════════════ PAGE HERO ══════════════════════ -->
+<section class="cc-hero">
+  <div class="cc-hero-bg">
+    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC9M_Lc-5bWi8b4a3xEcTFoFbRi5xEIUhgtmw_y97RpJ7G5H1hNV1zhq7hHF_p0K8TCHaERJSyG84EhZxqYKEiBo_69CEzUxr6f_yuIlsrPXWje-Zowg_sYRpNeLlWpNXoKaT0iCAqfuhDmpESxgmF53j82zDvg-RQ9DhUEhJlXrx23xnihPxKjxhkkeadpOWDFxkkqh5Glr3S7TpE0YAm_jn0gllXE03J36_k6Mp3yVS7DbmALsNZOVBd55XX5Ns8Fs26xza45t8"
+         alt="Healthcare professional talking to patient"/>
+    <div class="cc-hero-overlay"></div>
+  </div>
+  <div class="container">
+    <div class="cc-hero-content fade-up">
+      <span class="badge badge-blue">Care Coordination</span>
+      <h1>Enhancing Patient<br><span>Connectivity &amp; Outcomes</span></h1>
+      <p>Effective care coordination improves outcomes, reduces avoidable utilization, and strengthens patient engagement. Erigo supports healthcare organizations with structured communication models that enhance patient connectivity throughout the care journey.</p>
+      <div class="cc-hero-btns">
+        <a href="#contact" class="btn btn-coral">Get Started</a>
+        <a href="#services" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ BENEFITS BAR ══════════════════════ -->
+<section class="benefits-bar">
+  <div class="container">
+    <div class="benefits-bar-header fade-up">
+      <h2>Why Care Coordination Matters</h2>
+      <p>Structured communication models that drive measurable results for providers and patients.</p>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-item fade-up">
+        <div class="benefit-icon">
+          <span class="material-symbols-outlined">trending_down</span>
+        </div>
+        <h3>Lower Readmission Rates</h3>
+        <p>Proactive follow-ups reduce avoidable hospital returns.</p>
+      </div>
+      <div class="benefit-item fade-up">
+        <div class="benefit-icon">
+          <span class="material-symbols-outlined">sentiment_satisfied</span>
+        </div>
+        <h3>Improved Satisfaction</h3>
+        <p>Patients feel heard and supported throughout their journey.</p>
+      </div>
+      <div class="benefit-item fade-up">
+        <div class="benefit-icon">
+          <span class="material-symbols-outlined">schedule</span>
+        </div>
+        <h3>Reduced No-Shows</h3>
+        <p>Timely reminders keep schedules full and efficient.</p>
+      </div>
+      <div class="benefit-item fade-up">
+        <div class="benefit-icon">
+          <span class="material-symbols-outlined">verified_user</span>
+        </div>
+        <h3>Better Adherence</h3>
+        <p>Support for medication and care plan compliance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ SERVICES ══════════════════════ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <span class="badge badge-coral">Our Services</span>
+      <h2>Comprehensive Care Solutions</h2>
+      <p>From triage to remote management, we provide the infrastructure to care for patients beyond the office visit.</p>
+    </div>
+
+    <div class="service-cards">
+      <!-- Card 1 -->
+      <div class="service-card fade-up">
+        <div class="service-card-icon">
+          <span class="material-symbols-outlined">call</span>
+        </div>
+        <h3>Phone &amp; Message Triage</h3>
+        <p>Efficient triage ensures patients receive timely and appropriate care guidance, preventing unnecessary visits and improving throughput.</p>
+        <hr/>
+        <h4>Key Services</h4>
+        <ul>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Symptom triage documentation
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Appointment prioritization support
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Provider message routing
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Call documentation within EMR
+          </li>
+        </ul>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card fade-up">
+        <div class="service-card-icon">
+          <span class="material-symbols-outlined">support_agent</span>
+        </div>
+        <h3>Customer Contact Center</h3>
+        <p>Our healthcare-focused contact center delivers structured, compliant patient and member engagement across multiple communication channels.</p>
+        <hr/>
+        <h4>Key Services</h4>
+        <ul>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Appointment reminders
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Follow-up &amp; payment calls
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Member inquiry handling
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Multichannel communication
+          </li>
+        </ul>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card fade-up">
+        <div class="service-card-icon">
+          <span class="material-symbols-outlined">monitor_heart</span>
+        </div>
+        <h3>Remote Patient Management</h3>
+        <p>Remote patient engagement supports chronic care management and ensures follow-up adherence for patients outside the clinical setting.</p>
+        <hr/>
+        <h4>Key Services</h4>
+        <ul>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Outreach for care gap closure
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Monitoring support coordination
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Post-discharge follow-up calls
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Medication adherence reminders
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ CTA ══════════════════════ -->
+<section class="section" style="background:var(--gray-50);" id="contact">
+  <div class="container">
+    <div class="cc-cta-inner fade-up">
+      <div class="cc-cta-text">
+        <h2>Ready to improve patient outcomes?</h2>
+        <p class="cc-cta-sub">Let's discuss your coordination needs.</p>
+      </div>
+      <div class="cc-cta-btns">
+        <a href="index.html#contact" class="btn btn-coral">Contact Sales</a>
+        <a href="#services" class="btn btn-outline">View Case Studies</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="material-symbols-outlined" style="color:var(--white);font-size:1.8rem;">health_and_safety</span>
+          <div>
+            <span class="logo-text-primary" style="color:var(--white);">ERIGO</span>
+            <span class="logo-text-sub">Healthcare Solutions</span>
+          </div>
+        </div>
+        <p>Technology-driven, clinically enabled solutions empowering the healthcare ecosystem to thrive.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <a href="rcm.html">Revenue Cycle</a>
+        <a href="care-coordination.html">Care Coordination</a>
+        <a href="data-curation.html">Health Data Curation</a>
+        <a href="#">Payer Operations</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Leadership</a>
+        <a href="#">Newsroom</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="#" style="line-height:1.5;">123 Healthcare Blvd,<br>Innovation City, ST 12345</a>
+        <a href="tel:+18005550123">+1 (800) 555-0123</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Erigo Healthcare Solutions. All rights reserved.</p>
+      <div style="display:flex;gap:24px;">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

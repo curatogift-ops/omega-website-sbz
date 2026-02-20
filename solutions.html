@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solutions — Erigo Healthcare Solutions</title>
+  <meta name="description" content="Erigo Healthcare Solutions offers Revenue Cycle Management, Care Coordination, Health Data Curation, Payer Operations, and Drug Access & Affordability services."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@400,0&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ══════════ NAVBAR ══════════ -->
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="logo">
+      <span class="material-symbols-outlined logo-icon">medical_services</span>
+      <div>
+        <span class="logo-text-primary">ERIGO</span>
+        <span class="logo-text-sub">Healthcare Solutions</span>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a href="index.html#who-we-serve">Who We Serve</a>
+      <a href="solutions.html" class="active">Solutions</a>
+      <a href="index.html#technology">Technology</a>
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#insights">Insights</a>
+      <a href="index.html#contact" class="btn btn-primary nav-cta">Contact Us</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="container" style="display:flex;flex-direction:column;gap:4px;">
+      <a href="index.html">Home</a>
+      <a href="solutions.html">All Solutions</a>
+      <a href="rcm.html">Revenue Cycle Management</a>
+      <a href="care-coordination.html">Care Coordination</a>
+      <a href="data-curation.html">Health Data Curation</a>
+      <a href="index.html#contact" class="btn btn-coral" style="margin-top:8px;text-align:center;">Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════ PAGE HERO ══════════ -->
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAD7yrXAmIRK-dRqNAbTyxHOymkb29VuBEITF3NX7toIorUP9Nvq0DBwyc6GxPDraNbE5t3DPv4oCZxP9w73Ip1G00OUiU10n6Ov-_0KLqUFkKln0XqWsNgJjK44eUD71h0aL-BMkRKmcVKdrhrAIWo23aj3lAyHVix-A0n5U15C3XrTDllH5BX--pqA3AF1nUEeinihAsacCs-vheJnztCyLc4hG2IuXbNDMoGVDPx6ZlMlgpGNj1WN8uU02rIvUMbIpj7DbSxLzI" alt="Solutions Hero"/>
+  </div>
+  <div class="container">
+    <div class="page-hero-content fade-up">
+      <span class="badge badge-white">
+        <span class="material-symbols-outlined" style="font-size:.85rem;">grid_view</span>
+        Full Portfolio
+      </span>
+      <h1>Our Solutions</h1>
+      <p>We help optimize revenue cycle operations, administrative workflows, care coordination, and clinical research — operating as a seamless extension of your organization.</p>
+      <div class="page-hero-btns">
+        <a href="index.html#contact" class="btn btn-coral">Get Started</a>
+        <a href="#rcm" class="btn btn-outline-white">Explore Solutions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ STICKY SOLUTION TABS ══════════ -->
+<div class="sol-tabs-wrapper" id="sol-tabs-wrapper">
+  <div class="sol-tabs" role="tablist">
+    <button class="sol-tab active" data-target="rcm" role="tab">Revenue Cycle Management</button>
+    <button class="sol-tab" data-target="care" role="tab">Care Coordination</button>
+    <button class="sol-tab" data-target="data" role="tab">Health Data Curation</button>
+    <button class="sol-tab" data-target="payer" role="tab">Payer Operations</button>
+    <button class="sol-tab" data-target="drug" role="tab">Drug Access &amp; Affordability</button>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     1. REVENUE CYCLE MANAGEMENT
+══════════════════════════════════════════ -->
+<section class="sol-section" id="rcm">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="sol-intro fade-up">
+      <span class="badge badge-blue" style="margin-bottom:12px;">
+        <span class="material-symbols-outlined" style="font-size:.85rem;">currency_exchange</span>
+        Solution 1 of 5
+      </span>
+      <h2>Revenue Cycle Management</h2>
+      <p>Revenue performance is the financial backbone of every healthcare organization. Increasing claim complexity, regulatory changes, staffing shortages, and payer scrutiny require a structured and disciplined revenue cycle approach.</p>
+      <p>Erigo Healthcare Solutions delivers end-to-end revenue cycle services designed to strengthen financial stability while maintaining compliance and accuracy. Our teams operate as an extension of your organization, improving workflows across front-end, mid-cycle, and back-end functions.</p>
+    </div>
+
+    <!-- What We Focus On + Outcomes -->
+    <div class="rcm-focus fade-up" style="margin-bottom:40px;">
+      <div class="rcm-focus-left">
+        <div style="font-size:2rem;color:var(--navy-light);margin-bottom:14px;">
+          <span class="material-symbols-outlined" style="font-size:2.2rem;">adjust</span>
+        </div>
+        <h3 style="font-size:1.1rem;font-weight:700;color:var(--gray-800);margin-bottom:16px;">What We Focus On</h3>
+        <ul class="rcm-focus-checklist">
+          <li><span class="material-symbols-outlined">check_circle</span>Accuracy at the first point of data capture</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Reduction in preventable denials</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Faster reimbursement cycles</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Transparent reporting and accountability</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Continuous process optimization</li>
+        </ul>
+      </div>
+      <div class="rcm-outcomes">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px;">
+          <span class="material-symbols-outlined" style="color:rgba(255,255,255,.5);font-size:1.6rem;">trending_up</span>
+          <h3 style="color:white;font-size:1.05rem;font-weight:700;margin:0;">Measurable Outcomes</h3>
+        </div>
+        <div class="outcome-item">
+          <div class="outcome-icon" style="color:var(--coral);"><span class="material-symbols-outlined">verified</span></div>
+          <div><h4>Improved Clean Claim Rate</h4><p>Ensuring first-pass acceptance</p></div>
+        </div>
+        <div class="outcome-item">
+          <div class="outcome-icon" style="color:#f59e0b;"><span class="material-symbols-outlined">schedule</span></div>
+          <div><h4>Reduced Days in A/R</h4><p>Accelerating cash flow</p></div>
+        </div>
+        <div class="outcome-item">
+          <div class="outcome-icon" style="color:#22c55e;"><span class="material-symbols-outlined">percent</span></div>
+          <div><h4>Higher Net Collection %</h4><p>Maximizing revenue capture</p></div>
+        </div>
+        <div class="outcome-item">
+          <div class="outcome-icon" style="color:var(--coral);"><span class="material-symbols-outlined">remove_circle</span></div>
+          <div><h4>Reduced Write-offs</h4><p>Minimizing revenue leakage</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sub-services -->
+    <h3 class="fade-up" style="font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:20px;">Comprehensive RCM Services</h3>
+    <div class="sol-sub-grid">
+
+      <!-- 1.1 End-to-End RCM -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">all_inclusive</span></div>
+          <h3>1.1 — End-to-End RCM</h3>
+        </div>
+        <p>Complete patient financial journey management — from scheduling through final payment reconciliation. We implement standardized workflows, quality checkpoints, and performance monitoring across all revenue cycle stages.</p>
+        <p style="font-size:.82rem;color:var(--navy);font-weight:600;margin-bottom:10px;">We identify revenue leakage points and implement corrective measures supported by analytics. Our approach emphasizes prevention over correction — organizations experience improved revenue predictability, better operational efficiency, and reduced administrative burden.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Scope of Services</h4>
+            <ul>
+              <li>Patient demographic verification</li>
+              <li>Insurance validation</li>
+              <li>Charge entry and reconciliation</li>
+              <li>Medical coding and documentation review</li>
+              <li>Claims submission</li>
+              <li>Denial tracking and appeals</li>
+              <li>Payment posting</li>
+              <li>Accounts receivable follow-up</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.2 Patient Access -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">accessibility_new</span></div>
+          <h3>1.2 — Patient Access</h3>
+        </div>
+        <p>The accuracy of front-end processes determines downstream financial success. Errors during registration or authorization can significantly increase denials. Erigo strengthens patient access operations through structured workflows and real-time verification processes.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services Include</h4>
+            <ul>
+              <li>Insurance eligibility verification</li>
+              <li>Benefits investigation</li>
+              <li>Prior authorization initiation</li>
+              <li>Financial counseling support</li>
+              <li>Pre-registration review</li>
+              <li>Appointment scheduling assistance</li>
+            </ul>
+          </div>
+          <div class="sol-sub-list-block">
+            <h4>Operational Benefits</h4>
+            <ul>
+              <li>Reduced registration errors</li>
+              <li>Fewer front-end denials</li>
+              <li>Improved patient financial transparency</li>
+              <li>Increased point-of-service collections</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.3 Mid-Revenue Cycle -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">compare_arrows</span></div>
+          <h3>1.3 — Mid-Revenue Cycle</h3>
+        </div>
+        <p>Mid-cycle processes ensure clinical documentation supports compliant and optimized reimbursement. We reduce compliance risks and enhance reimbursement alignment.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Clinical documentation improvement support</li>
+              <li>Medical coding services</li>
+              <li>Coding audits and quality review</li>
+              <li>Charge capture validation</li>
+              <li>Revenue integrity analysis</li>
+            </ul>
+          </div>
+          <div class="sol-sub-list-block">
+            <h4>Value Delivered</h4>
+            <ul>
+              <li>Improved coding accuracy</li>
+              <li>Reduced compliance risks</li>
+              <li>Enhanced reimbursement alignment</li>
+              <li>Minimized audit exposure</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.4 Business Office -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">receipt_long</span></div>
+          <h3>1.4 — Business Office</h3>
+        </div>
+        <p>Our Business Office services focus on post-claim financial performance to accelerate cash flow and lower bad debt. We provide structured denial prevention strategies.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Accounts receivable management</li>
+              <li>Denial analysis and appeals</li>
+              <li>Underpayment identification</li>
+              <li>Payer correspondence handling</li>
+              <li>Patient billing and collections support</li>
+            </ul>
+          </div>
+          <div class="sol-sub-list-block">
+            <h4>Results</h4>
+            <ul>
+              <li>Accelerated cash flow</li>
+              <li>Lower bad debt</li>
+              <li>Improved collection rates</li>
+              <li>Structured denial prevention strategy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /sol-sub-grid -->
+
+    <div style="margin-top:28px;" class="fade-up">
+      <a href="rcm.html" class="btn btn-primary">View Full RCM Page →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     2. CARE COORDINATION
+══════════════════════════════════════════ -->
+<section class="sol-section" id="care" style="background:var(--gray-50);">
+  <div class="container">
+    <div class="sol-intro fade-up">
+      <span class="badge badge-coral" style="margin-bottom:12px;">
+        <span class="material-symbols-outlined" style="font-size:.85rem;">support_agent</span>
+        Solution 2 of 5
+      </span>
+      <h2>Care Coordination</h2>
+      <p>Effective care coordination improves outcomes, reduces avoidable utilization, and strengthens patient engagement. Erigo supports healthcare organizations with structured communication models that enhance patient connectivity throughout the care journey.</p>
+    </div>
+
+    <div class="sol-sub-grid">
+
+      <!-- 2.1 Phone & Message Triage -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">call</span></div>
+          <h3>2.1 — Phone &amp; Message Triage</h3>
+        </div>
+        <p>Efficient triage ensures patients receive timely and appropriate care guidance, preventing unnecessary visits and improving overall throughput.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Symptom triage documentation</li>
+              <li>Appointment prioritization support</li>
+              <li>Provider message routing</li>
+              <li>Call documentation within EMR workflows</li>
+            </ul>
+          </div>
+          <div class="sol-sub-list-block">
+            <h4>Outcomes</h4>
+            <ul>
+              <li>Improved response times</li>
+              <li>Reduced unnecessary visits</li>
+              <li>Enhanced patient satisfaction</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2.2 Customer Contact Center -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">support_agent</span></div>
+          <h3>2.2 — Customer Contact Center</h3>
+        </div>
+        <p>Our healthcare-focused contact center delivers structured, compliant patient and member engagement across all communication channels.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Appointment reminders</li>
+              <li>Follow-up calls</li>
+              <li>Payment reminder outreach</li>
+              <li>Member inquiry handling</li>
+              <li>Multichannel communication support</li>
+            </ul>
+          </div>
+          <div class="sol-sub-list-block">
+            <h4>Benefits</h4>
+            <ul>
+              <li>Reduced no-show rates</li>
+              <li>Improved communication consistency</li>
+              <li>Stronger patient retention</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2.3 Remote Patient Management -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">monitor_heart</span></div>
+          <h3>2.3 — Remote Patient Management</h3>
+        </div>
+        <p>Remote patient engagement supports chronic care management and ensures follow-up adherence for patients outside the clinical setting.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Outreach for care gap closure</li>
+              <li>Monitoring support coordination</li>
+              <li>Post-discharge follow-up calls</li>
+              <li>Medication adherence reminders</li>
+            </ul>
+          </div>
+          <div class="sol-sub-list-block">
+            <h4>Impact</h4>
+            <ul>
+              <li>Lower readmission rates</li>
+              <li>Improved continuity of care</li>
+              <li>Increased patient accountability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:28px;" class="fade-up">
+      <a href="care-coordination.html" class="btn btn-coral">View Full Care Coordination Page →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     3. HEALTH DATA CURATION
+══════════════════════════════════════════ -->
+<section class="sol-section" id="data">
+  <div class="container">
+    <div class="sol-intro fade-up">
+      <span class="badge badge-blue" style="margin-bottom:12px;">
+        <span class="material-symbols-outlined" style="font-size:.85rem;">database</span>
+        Solution 3 of 5
+      </span>
+      <h2>Health Data Curation</h2>
+      <p>Accurate healthcare data supports research, compliance, analytics, and innovation. Erigo delivers structured clinical data management services tailored to life sciences, providers, and payers.</p>
+    </div>
+
+    <div class="sol-sub-grid">
+
+      <!-- 3.1 Clinical Trial Data -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">science</span></div>
+          <h3>3.1 — Clinical Trial Data Solutions</h3>
+        </div>
+        <p>We support clinical research through precise data abstraction and quality review, ensuring protocol adherence and data integrity throughout your study lifecycle.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Chart abstraction</li>
+              <li>Data validation</li>
+              <li>Case report form review</li>
+              <li>Protocol compliance checks</li>
+            </ul>
+          </div>
+          <div class="sol-sub-list-block">
+            <h4>Value</h4>
+            <ul>
+              <li>Faster study timelines</li>
+              <li>High-quality regulatory submission support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.2 Real-World Data -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">public</span></div>
+          <h3>3.2 — Real-World Data Curation</h3>
+        </div>
+        <p>Real-world evidence supports outcome analysis and market access strategies. We structure messy clinical data into usable, standardized datasets ready for high-impact analysis.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Data extraction from clinical records</li>
+              <li>Standardized dataset creation</li>
+              <li>Quality audits</li>
+              <li>Structured reporting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.3 AI/ML Validation -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">model_training</span></div>
+          <h3>3.3 — AI/ML Model Validation &amp; Enablement</h3>
+        </div>
+        <p>We support healthcare AI initiatives by validating data integrity and annotation accuracy to ensure models are trained on ground truth clinical data.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Clinical data labeling</li>
+              <li>Model validation review</li>
+              <li>Bias and accuracy assessment</li>
+              <li>Quality benchmarking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.4 Registry Data Management -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">folder_managed</span></div>
+          <h3>3.4 — Registry Data Management</h3>
+        </div>
+        <p>Registries require ongoing data accuracy and governance. We manage the full lifecycle of registry data entry and maintenance for continuous compliance.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Data abstraction</li>
+              <li>Longitudinal tracking</li>
+              <li>Data quality audits</li>
+              <li>Reporting and analytics support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:28px;" class="fade-up">
+      <a href="data-curation.html" class="btn btn-primary">View Full Data Curation Page →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     4. PAYER OPERATIONS
+══════════════════════════════════════════ -->
+<section class="sol-section" id="payer" style="background:var(--gray-50);">
+  <div class="container">
+    <div class="sol-intro fade-up">
+      <span class="badge badge-coral" style="margin-bottom:12px;">
+        <span class="material-symbols-outlined" style="font-size:.85rem;">account_balance</span>
+        Solution 4 of 5
+      </span>
+      <h2>Payer Operations</h2>
+      <p>Erigo supports health plans with administrative and clinical operational services — enabling payers to manage costs, improve quality, and meet regulatory requirements more efficiently.</p>
+    </div>
+
+    <div class="sol-sub-grid">
+
+      <!-- 4.1 Value-Based Care -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">bar_chart</span></div>
+          <h3>4.1 — Value-Based Care</h3>
+        </div>
+        <p>Value-based models require accurate documentation and risk management. Erigo provides the expertise to navigate complex value-based arrangements and improve quality scores.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Risk adjustment chart review</li>
+              <li>HCC coding validation</li>
+              <li>Quality measure support</li>
+              <li>Data reconciliation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.2 Provider & Member Engagement -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">groups</span></div>
+          <h3>4.2 — Provider &amp; Member Engagement</h3>
+        </div>
+        <p>Strengthening the connection between health plans, providers, and members through structured outreach and data integrity programs.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Provider onboarding support</li>
+              <li>Member outreach</li>
+              <li>Network data validation</li>
+              <li>Provider communication coordination</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.3 Administrative Support -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">admin_panel_settings</span></div>
+          <h3>4.3 — Administrative Support</h3>
+        </div>
+        <p>Handling the administrative burden associated with claims review, appeals, grievances, and credentialing so your team can focus on strategic priorities.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Claims review assistance</li>
+              <li>Grievance handling support</li>
+              <li>Appeals coordination</li>
+              <li>Credentialing documentation processing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:28px;" class="fade-up">
+      <a href="index.html#contact" class="btn btn-coral">Connect With Our Payer Team →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     5. DRUG ACCESS & AFFORDABILITY
+══════════════════════════════════════════ -->
+<section class="sol-section" id="drug">
+  <div class="container">
+    <div class="sol-intro fade-up">
+      <span class="badge badge-blue" style="margin-bottom:12px;">
+        <span class="material-symbols-outlined" style="font-size:.85rem;">medication</span>
+        Solution 5 of 5
+      </span>
+      <h2>Drug Access &amp; Affordability</h2>
+      <p>Access to medication requires structured coordination across payers, providers, and patients. Erigo provides support services that simplify enrollment, verification, and financial assistance workflows — removing barriers between patients and the treatments they need.</p>
+    </div>
+
+    <div class="sol-sub-grid">
+
+      <!-- 5.1 Member Enrollment -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">how_to_reg</span></div>
+          <h3>5.1 — Member Enrollment</h3>
+        </div>
+        <p>Streamlining the intake and enrollment process to ensure eligible patients are enrolled quickly and accurately into the programs they need.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Intake processing</li>
+              <li>Documentation verification</li>
+              <li>Program eligibility validation</li>
+              <li>Case tracking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5.2 Benefit Verification -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">fact_check</span></div>
+          <h3>5.2 — Benefit Verification</h3>
+        </div>
+        <p>Confirming coverage details and estimating out-of-pocket costs to empower patients with the financial information they need before treatment.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Coverage confirmation</li>
+              <li>Plan analysis</li>
+              <li>Out-of-pocket cost estimation</li>
+              <li>Benefit explanation support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5.3 Prior Authorization -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">assignment_turned_in</span></div>
+          <h3>5.3 — Prior Authorization</h3>
+        </div>
+        <p>Managing the full prior authorization process to reduce delays and ensure patients receive timely access to prescribed treatments.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Authorization submission</li>
+              <li>Documentation coordination</li>
+              <li>Status follow-up</li>
+              <li>Appeal preparation support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5.4 Patient Co-Pay Assistance -->
+      <div class="sol-sub-card fade-up">
+        <div class="sol-sub-card-header">
+          <div class="sol-sub-icon"><span class="material-symbols-outlined">payments</span></div>
+          <h3>5.4 — Patient Co-Pay Assistance</h3>
+        </div>
+        <p>Helping patients navigate financial assistance programs and co-pay support options so cost never becomes a barrier to necessary treatment.</p>
+        <div class="sol-sub-lists">
+          <div class="sol-sub-list-block">
+            <h4>Services</h4>
+            <ul>
+              <li>Financial eligibility review</li>
+              <li>Co-pay program coordination</li>
+              <li>Payment processing support</li>
+              <li>Ongoing case management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:28px;" class="fade-up">
+      <a href="index.html#contact" class="btn btn-primary">Talk to Our Team →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA ══════════ -->
+<section class="cta-band">
+  <div class="container">
+    <div class="cta-band-inner">
+      <div>
+        <h2>Ready to Get Started?</h2>
+        <p>Contact us today to discuss which solution is right for your organization.</p>
+      </div>
+      <a href="index.html#contact" class="btn btn-white">Contact Our Team</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="material-symbols-outlined" style="color:var(--white);font-size:1.8rem;">medical_services</span>
+          <div>
+            <span class="logo-text-primary" style="color:var(--white);">ERIGO</span>
+            <span class="logo-text-sub">Healthcare Solutions</span>
+          </div>
+        </div>
+        <p>Technology-driven, clinically enabled solutions that empower the healthcare ecosystem to thrive.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Who We Serve</h4>
+        <a href="#">Provider</a>
+        <a href="#">Payer</a>
+        <a href="#">Life Sciences &amp; Health Tech</a>
+        <a href="#">Industry Partners</a>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <a href="rcm.html">Revenue Cycle Management</a>
+        <a href="care-coordination.html">Care Coordination</a>
+        <a href="data-curation.html">Health Data Curation</a>
+        <a href="solutions.html#payer">Payer Operations</a>
+        <a href="solutions.html#drug">Drug Access &amp; Affordability</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Leadership</a>
+        <a href="#">Newsroom</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="#" style="line-height:1.6;">123 Healthcare Blvd, Suite 100<br>Medical District, NY 10001</a>
+        <a href="tel:+18005550123">(800) 555-0123</a>
+        <a href="mailto:solutions@erigohealthcare.com">solutions@erigohealthcare.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Erigo Healthcare Management Services. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Compliance Page</a>
+        <a href="index.html#contact">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+  /* ── Solution Tabs scroll-spy ── */
+  const tabs    = document.querySelectorAll('.sol-tab');
+  const sections = document.querySelectorAll('.sol-section');
+
+  // Tab click → smooth scroll to section
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = document.getElementById(tab.dataset.target);
+      if (target) {
+        const offset = document.getElementById('sol-tabs-wrapper').offsetHeight + 64 + 8;
+        const top    = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Scroll spy — highlight active tab
+  const tabsWrap = document.getElementById('sol-tabs-wrapper');
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY + 160;
+    sections.forEach(sec => {
+      if (scrollY >= sec.offsetTop && scrollY < sec.offsetTop + sec.offsetHeight) {
+        tabs.forEach(t => t.classList.remove('active'));
+        const active = document.querySelector(`.sol-tab[data-target="${sec.id}"]`);
+        if (active) {
+          active.classList.add('active');
+          // Scroll tab into view inside the scrollable tab bar
+          active.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: 'smooth' });
+        }
+      }
+    });
+  }, { passive: true });
+</script>
+</body>
+</html>
