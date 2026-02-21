@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenu = document.getElementById('mobile-menu');
 
   if (hamburger && mobileMenu) {
-    hamburger.addEventListener('click', () => {
+    hamburger.addEventListener('click', (e) => {
+      e.stopPropagation();
       hamburger.classList.toggle('open');
       mobileMenu.classList.toggle('open');
     });
 
-    // Close on outside click
     document.addEventListener('click', e => {
       if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
         hamburger.classList.remove('open');
@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // Close on mobile link click
     mobileMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         hamburger.classList.remove('open');
@@ -34,10 +33,47 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ══════════════════════════════════════
-     2. ACTIVE NAV LINK (auto-detect page)
+     2. MOBILE ACCORDION — Solutions submenu
+  ══════════════════════════════════════ */
+  document.querySelectorAll('.mobile-accordion-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const bodyId = btn.getAttribute('data-target');
+      const body   = document.getElementById(bodyId);
+      const isOpen = btn.classList.contains('open');
+
+      // Close all other accordions
+      document.querySelectorAll('.mobile-accordion-btn.open').forEach(b => {
+        b.classList.remove('open');
+        const bBody = document.getElementById(b.getAttribute('data-target'));
+        if (bBody) bBody.classList.remove('open');
+      });
+
+      if (!isOpen) {
+        btn.classList.add('open');
+        if (body) body.classList.add('open');
+      }
+    });
+  });
+
+  /* ══════════════════════════════════════
+     3. MEGA MENU — close on outside click
+  ══════════════════════════════════════ */
+  const megaWrappers = document.querySelectorAll('.nav-dropdown-wrapper');
+  megaWrappers.forEach(wrapper => {
+    // Keep hover via CSS; also support focus/keyboard
+    wrapper.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        wrapper.querySelector('.mega-menu')?.blur();
+      }
+    });
+  });
+
+  /* ══════════════════════════════════════
+     4. ACTIVE NAV LINK
   ══════════════════════════════════════ */
   const page = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-links a').forEach(link => {
+  document.querySelectorAll('.nav-links a:not(.btn)').forEach(link => {
     const href = link.getAttribute('href');
     if (!href) return;
     const linkPage = href.split('/').pop().split('#')[0];
@@ -45,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* ══════════════════════════════════════
-     3. NAVBAR SCROLL SHADOW
+     5. NAVBAR SCROLL SHADOW
   ══════════════════════════════════════ */
   const navbar = document.querySelector('.navbar');
   if (navbar) {
@@ -57,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ══════════════════════════════════════
-     4. SCROLL-TRIGGERED FADE-UP ANIMATION
+     6. SCROLL-TRIGGERED FADE-UP ANIMATION
   ══════════════════════════════════════ */
   const fadeEls = document.querySelectorAll('.fade-up');
   if ('IntersectionObserver' in window) {
@@ -68,20 +104,21 @@ document.addEventListener('DOMContentLoaded', () => {
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.1 });
     fadeEls.forEach(el => observer.observe(el));
   } else {
     fadeEls.forEach(el => el.classList.add('visible'));
   }
 
   /* ══════════════════════════════════════
-     5. ANIMATED COUNTERS (stats bar)
+     7. ANIMATED COUNTERS
   ══════════════════════════════════════ */
   const counters = document.querySelectorAll('.stat-number[data-target]');
   if (counters.length) {
     const animateCounter = el => {
-      const target   = +el.getAttribute('data-target');
-      const suffix   = el.getAttribute('data-suffix') || '';
+      const raw    = el.getAttribute('data-target').replace(/,/g, '');
+      const target = +raw;
+      const suffix = el.getAttribute('data-suffix') || '';
       const duration = 1600;
       const step     = 16;
       const increment = target / (duration / step);
@@ -89,14 +126,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
-          el.textContent = target + suffix;
+          el.textContent = el.getAttribute('data-target') + suffix;
           clearInterval(timer);
         } else {
-          el.textContent = Math.floor(current) + suffix;
+          el.textContent = Math.floor(current).toLocaleString() + suffix;
         }
       }, step);
     };
-
     const counterObs = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -109,12 +145,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ══════════════════════════════════════
-     6. CONTACT FORM — SUCCESS POPUP
+     8. CONTACT FORM — SUCCESS POPUP
   ══════════════════════════════════════ */
-  const forms   = document.querySelectorAll('.contact-form, form.form-box form');
-  const popup   = document.getElementById('success-popup');
-
-  forms.forEach(form => {
+  const popup = document.getElementById('success-popup');
+  document.querySelectorAll('form').forEach(form => {
+    if (form.dataset.handled) return;
+    form.dataset.handled = 'true';
     form.addEventListener('submit', e => {
       e.preventDefault();
       if (popup) {
@@ -125,19 +161,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Also catch any form on page
-  document.querySelectorAll('form').forEach(form => {
-    if (!form.dataset.handled) {
-      form.dataset.handled = 'true';
-      form.addEventListener('submit', e => {
-        e.preventDefault();
-        if (popup) {
-          popup.classList.add('show');
-          setTimeout(() => popup.classList.remove('show'), 5000);
-        }
-        form.reset();
+  /* ══════════════════════════════════════
+     9. TESTIMONIALS SLIDER
+  ══════════════════════════════════════ */
+  const testimonialCards = document.querySelectorAll('.testimonial-card');
+  const testimonialDots  = document.querySelectorAll('.testimonials-dots .dot');
+  let currentSlide = 0;
+  let sliderTimer;
+
+  function showSlide(index) {
+    testimonialCards.forEach(c => c.classList.remove('active'));
+    testimonialDots.forEach(d => d.classList.remove('active'));
+    currentSlide = (index + testimonialCards.length) % testimonialCards.length;
+    testimonialCards[currentSlide].classList.add('active');
+    if (testimonialDots[currentSlide]) testimonialDots[currentSlide].classList.add('active');
+  }
+
+  if (testimonialCards.length) {
+    // Dot click — manual navigation
+    testimonialDots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        clearInterval(sliderTimer);
+        showSlide(i);
+        // Resume auto-play after 10 seconds
+        sliderTimer = setInterval(() => showSlide(currentSlide + 1), 6000);
       });
-    }
-  });
+    });
+    // Auto-play
+    sliderTimer = setInterval(() => showSlide(currentSlide + 1), 6000);
+  }
 
 });

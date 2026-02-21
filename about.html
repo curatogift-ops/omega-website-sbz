@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us — Erigo Healthcare Solutions</title>
+  <meta name="description" content="Learn about Erigo Healthcare Solutions — our mission, leadership, global presence, and commitment to transforming healthcare through technology-driven, clinically enabled services."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+</head>
+<body>
+
+<!-- ══════════════════════ NAVBAR ══════════════════════ -->
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="logo">
+      <span class="material-symbols-outlined logo-icon">medical_services</span>
+      <div>
+        <span class="logo-text-primary">ERIGO</span>
+        <span class="logo-text-sub">Healthcare Solutions</span>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#who-we-serve">Who We Serve</a>
+      <div class="nav-dropdown-wrapper">
+        <a href="solutions.html" class="nav-dropdown-trigger">
+          Solutions <span class="material-symbols-outlined nav-chevron">expand_more</span>
+        </a>
+        <div class="mega-menu">
+          <div class="mega-menu-inner">
+            <div class="mega-col">
+              <h4><a href="rcm.html">Revenue Cycle Management</a></h4>
+              <ul>
+                <li><a href="rcm.html">End-To-End RCM</a></li>
+                <li><a href="rcm.html">Patient Access</a></li>
+                <li><a href="rcm.html">Mid-Revenue Cycle</a></li>
+                <li><a href="rcm.html">Business Office</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="care-coordination.html">Care Coordination</a></h4>
+              <ul>
+                <li><a href="care-coordination.html">Phone &amp; Message Triage</a></li>
+                <li><a href="care-coordination.html">Customer Contact Center</a></li>
+                <li><a href="care-coordination.html">Remote Patient Management</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="data-curation.html">Health Data Curation</a></h4>
+              <ul>
+                <li><a href="data-curation.html">Clinical Trial Data Solutions</a></li>
+                <li><a href="data-curation.html">Real-World Data Curation</a></li>
+                <li><a href="data-curation.html">AI/ML Model Validation and Enablement</a></li>
+                <li><a href="data-curation.html">Registry Data Management</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="solutions.html#payer">Payer Operations</a></h4>
+              <ul>
+                <li><a href="solutions.html#payer">Value-based Care</a></li>
+                <li><a href="solutions.html#payer">Provider &amp; Member Engagement</a></li>
+                <li><a href="solutions.html#payer">Administrative Support</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="solutions.html#drug">Drug Access &amp; Affordability</a></h4>
+              <ul>
+                <li><a href="solutions.html#drug">Member Enrollment</a></li>
+                <li><a href="solutions.html#drug">Benefit Verification</a></li>
+                <li><a href="solutions.html#drug">Prior Authorization</a></li>
+                <li><a href="solutions.html#drug">Patient Co-Pay Assistance</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="index.html#technology">Technology &amp; Clinical Innovation</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="#">Careers</a>
+      <a href="index.html#insights">Insights</a>
+      <a href="index.html#contact" class="btn btn-outline nav-cta">Contact Us</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="container mobile-menu-container">
+      <a href="index.html#who-we-serve" class="mobile-link">Who We Serve</a>
+      <div>
+        <button class="mobile-accordion-btn" data-target="mob-solutions" id="mob-solutions-btn">
+          Solutions <span class="material-symbols-outlined">expand_more</span>
+        </button>
+        <div class="mobile-accordion-body" id="mob-solutions">
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Revenue Cycle Management</span>
+            <a href="rcm.html">End-To-End RCM</a>
+            <a href="rcm.html">Patient Access</a>
+            <a href="rcm.html">Mid-Revenue Cycle</a>
+            <a href="rcm.html">Business Office</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Care Coordination</span>
+            <a href="care-coordination.html">Phone &amp; Message Triage</a>
+            <a href="care-coordination.html">Customer Contact Center</a>
+            <a href="care-coordination.html">Remote Patient Management</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Health Data Curation</span>
+            <a href="data-curation.html">Clinical Trial Data Solutions</a>
+            <a href="data-curation.html">Real-World Data Curation</a>
+            <a href="data-curation.html">AI/ML Model Validation</a>
+            <a href="data-curation.html">Registry Data Management</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Payer Operations</span>
+            <a href="solutions.html#payer">Value-based Care</a>
+            <a href="solutions.html#payer">Provider &amp; Member Engagement</a>
+            <a href="solutions.html#payer">Administrative Support</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Drug Access &amp; Affordability</span>
+            <a href="solutions.html#drug">Member Enrollment</a>
+            <a href="solutions.html#drug">Benefit Verification</a>
+            <a href="solutions.html#drug">Prior Authorization</a>
+            <a href="solutions.html#drug">Patient Co-Pay Assistance</a>
+          </div>
+        </div>
+      </div>
+      <a href="index.html#technology" class="mobile-link">Technology &amp; Clinical Innovation</a>
+      <a href="about.html" class="mobile-link">About Us</a>
+      <a href="#" class="mobile-link">Careers</a>
+      <a href="index.html#insights" class="mobile-link">Insights</a>
+      <hr/>
+      <a href="index.html#contact" class="mobile-menu-cta">Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════════════ HERO ══════════════════════ -->
+<section class="about-hero">
+  <div class="about-hero-bg"></div>
+  <div class="container about-hero-content fade-up">
+    <span class="badge badge-blue">Who We Are</span>
+    <h1>Empowering Healthcare<br><span>Organizations to Thrive</span></h1>
+    <p>Erigo Healthcare Solutions is a global technology-driven, clinically enabled company dedicated to transforming how healthcare organizations operate, serve patients, and achieve financial sustainability.</p>
+    <div class="about-hero-btns">
+      <a href="index.html#contact" class="btn btn-primary">Work With Us</a>
+      <a href="solutions.html" class="btn btn-outline">Our Solutions</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ STATS ══════════════════════ -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-bar-inner">
+      <div class="stat-item fade-up">
+        <div class="stat-number" data-target="35000" data-suffix="+">35,000+</div>
+        <div class="stat-label">Skilled Professionals</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-number" data-target="1600" data-suffix="+">1,600+</div>
+        <div class="stat-label">Digital Workers</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-number" data-target="350" data-suffix="+">350+</div>
+        <div class="stat-label">Organizations Served</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-number" data-target="20" data-suffix="+">20+</div>
+        <div class="stat-label">Years of Excellence</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ MISSION / VISION / VALUES ══════════════════════ -->
+<section class="section" id="mission">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <span class="badge badge-blue">Our Purpose</span>
+      <h2>Mission, Vision &amp; Values</h2>
+    </div>
+    <div class="mvv-grid">
+      <div class="mvv-card fade-up">
+        <div class="mvv-icon" style="background:#eff6ff;">
+          <span class="material-symbols-outlined" style="color:#1e3a8a;">rocket_launch</span>
+        </div>
+        <h3>Our Mission</h3>
+        <p>To deliver technology-driven, clinically enabled healthcare solutions that empower providers, payers, and life sciences organizations to operate at their best — with greater accuracy, efficiency, and transparency.</p>
+      </div>
+      <div class="mvv-card fade-up">
+        <div class="mvv-icon" style="background:#fff7ed;">
+          <span class="material-symbols-outlined" style="color:#f97316;">visibility</span>
+        </div>
+        <h3>Our Vision</h3>
+        <p>To be the most trusted global partner in healthcare operations — recognized for our people, our innovation, and the measurable impact we create for every client we serve.</p>
+      </div>
+      <div class="mvv-card fade-up">
+        <div class="mvv-icon" style="background:#f0fdf4;">
+          <span class="material-symbols-outlined" style="color:#16a34a;">diamond</span>
+        </div>
+        <h3>Our Values</h3>
+        <ul class="mvv-values-list">
+          <li><span class="material-symbols-outlined">check_circle</span> Integrity &amp; Accountability</li>
+          <li><span class="material-symbols-outlined">check_circle</span> Clinical Excellence</li>
+          <li><span class="material-symbols-outlined">check_circle</span> Innovation &amp; Adaptability</li>
+          <li><span class="material-symbols-outlined">check_circle</span> People-First Culture</li>
+          <li><span class="material-symbols-outlined">check_circle</span> Client Partnership</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ WHO WE ARE — STORY ══════════════════════ -->
+<section class="section about-story-section" style="background:var(--gray-50);">
+  <div class="container">
+    <div class="about-story-grid">
+      <div class="about-story-text fade-up">
+        <span class="badge badge-blue">Our Story</span>
+        <h2>A Legacy of Healthcare Excellence</h2>
+        <p>Founded over two decades ago, Erigo Healthcare Solutions began with a simple but powerful conviction: that technology and clinical expertise together can meaningfully transform how healthcare organizations deliver value.</p>
+        <p>Today, we are a global leader with operations spanning the United States, India, and Colombia — serving 350+ healthcare organizations across providers, payers, life sciences companies, and industry partners.</p>
+        <p>Our teams of 35,000+ skilled professionals and 1,600+ digital workers act as a seamless extension of our clients' operations, bringing discipline, innovation, and measurable results to every engagement.</p>
+        <div class="about-story-highlights">
+          <div class="story-highlight">
+            <span class="material-symbols-outlined" style="color:var(--coral);">workspace_premium</span>
+            <span>Best in KLAS Award — Ambulatory RCM 2026</span>
+          </div>
+          <div class="story-highlight">
+            <span class="material-symbols-outlined" style="color:var(--coral);">military_tech</span>
+            <span>IDC MarketScape Leader 2025–2026</span>
+          </div>
+          <div class="story-highlight">
+            <span class="material-symbols-outlined" style="color:var(--coral);">verified</span>
+            <span>5 A+ Grades in KLAS First Look Report</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-story-image fade-up">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAD7yrXAmIRK-dRqNAbTyxHOymkb29VuBEITF3NX7toIorUP9Nvq0DBwyc6GxPDraNbE5t3DPv4oCZxP9w73Ip1G00OUiU10n6Ov-_0KLqUFkKln0XqWsNgJjK44eUD71h0aL-BMkRKmcVKdrhrAIWo23aj3lAyHVix-A0n5U15C3XrTDllH5BX--pqA3AF1nUEeinihAsacCs-vheJnztCyLc4hG2IuXbNDMoGVDPx6ZlMlgpGNj1WN8uU02rIvUMbIpj7DbSxLzI" alt="Erigo Healthcare team collaborating"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ LEADERSHIP ══════════════════════ -->
+<section class="section" id="leadership">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <span class="badge badge-blue">Our Leaders</span>
+      <h2>Leadership Team</h2>
+      <p>Guided by experienced healthcare executives, technologists, and clinicians committed to delivering exceptional outcomes.</p>
+    </div>
+    <div class="leadership-grid">
+      <div class="leader-card fade-up">
+        <div class="leader-avatar" style="background:linear-gradient(135deg,#1e3a8a,#2563eb);">
+          <span class="material-symbols-outlined">person</span>
+        </div>
+        <h4>Gopi Krishnan</h4>
+        <span class="leader-title">Chief Executive Officer</span>
+        <p>25+ years shaping global healthcare BPO and technology strategy.</p>
+      </div>
+      <div class="leader-card fade-up">
+        <div class="leader-avatar" style="background:linear-gradient(135deg,#f97316,#ea580c);">
+          <span class="material-symbols-outlined">person</span>
+        </div>
+        <h4>Priya Ramachandran</h4>
+        <span class="leader-title">Chief Operating Officer</span>
+        <p>Operations excellence leader driving efficiency across 50+ client sites.</p>
+      </div>
+      <div class="leader-card fade-up">
+        <div class="leader-avatar" style="background:linear-gradient(135deg,#0e9f7e,#059669);">
+          <span class="material-symbols-outlined">person</span>
+        </div>
+        <h4>David Harrington</h4>
+        <span class="leader-title">Chief Technology Officer</span>
+        <p>AI and automation visionary transforming healthcare workflows at scale.</p>
+      </div>
+      <div class="leader-card fade-up">
+        <div class="leader-avatar" style="background:linear-gradient(135deg,#7c3aed,#6d28d9);">
+          <span class="material-symbols-outlined">person</span>
+        </div>
+        <h4>Sarah Mitchell</h4>
+        <span class="leader-title">Chief Clinical Officer</span>
+        <p>Clinical informaticist bridging healthcare operations and patient care.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ GLOBAL PRESENCE ══════════════════════ -->
+<section class="section about-global" style="background:var(--navy);">
+  <div class="container">
+    <div class="section-header center fade-up" style="color:#fff;">
+      <span class="badge" style="background:rgba(249,115,22,.2);color:#fdba74;">Global Footprint</span>
+      <h2 style="color:#fff;">Operating Across Three Continents</h2>
+      <p style="color:rgba(255,255,255,.75);">Our global delivery model brings the right talent, technology, and clinical expertise to every client engagement.</p>
+    </div>
+    <div class="global-offices-grid">
+      <div class="office-card fade-up">
+        <div class="office-flag">🇺🇸</div>
+        <h4>United States</h4>
+        <p>Headquarters — Boca Raton, Florida</p>
+        <ul>
+          <li>Client headquarters &amp; strategy</li>
+          <li>Clinical leadership hub</li>
+          <li>Technology innovation center</li>
+        </ul>
+      </div>
+      <div class="office-card fade-up">
+        <div class="office-flag">🇮🇳</div>
+        <h4>India</h4>
+        <p>Chennai · Hyderabad · Bengaluru</p>
+        <ul>
+          <li>25,000+ skilled professionals</li>
+          <li>RCM &amp; data curation operations</li>
+          <li>AI/ML development center</li>
+        </ul>
+      </div>
+      <div class="office-card fade-up">
+        <div class="office-flag">🇨🇴</div>
+        <h4>Colombia</h4>
+        <p>Medellín · Bogotá</p>
+        <ul>
+          <li>Bilingual care coordination</li>
+          <li>Patient contact center</li>
+          <li>Payer operations support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ WHY ERIGO ══════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <span class="badge badge-blue">Why Choose Us</span>
+      <h2>The Erigo Advantage</h2>
+      <p>What sets Erigo apart is our ability to combine deep clinical knowledge with proven operational discipline and cutting-edge technology.</p>
+    </div>
+    <div class="advantage-grid">
+      <div class="advantage-item fade-up">
+        <div class="advantage-num">01</div>
+        <h4>Clinically-Led Operations</h4>
+        <p>Every service is designed and quality-reviewed by clinicians to ensure accuracy, compliance, and patient-safety alignment.</p>
+      </div>
+      <div class="advantage-item fade-up">
+        <div class="advantage-num">02</div>
+        <h4>Technology-First Approach</h4>
+        <p>We invest in AI, RPA, and advanced analytics so our clients don't have to — and we absorb the technology risk on their behalf.</p>
+      </div>
+      <div class="advantage-item fade-up">
+        <div class="advantage-num">03</div>
+        <h4>Scalable Global Delivery</h4>
+        <p>With 35,000+ professionals across three countries, we scale up or down to match your operational demands precisely.</p>
+      </div>
+      <div class="advantage-item fade-up">
+        <div class="advantage-num">04</div>
+        <h4>Measurable Outcomes</h4>
+        <p>Our client engagements are governed by documented KPIs, transparent reporting, and continuous improvement mandates.</p>
+      </div>
+      <div class="advantage-item fade-up">
+        <div class="advantage-num">05</div>
+        <h4>Regulatory Compliance</h4>
+        <p>We maintain HIPAA compliance, SOC 2 Type II certification, and rigorous security standards across all operations.</p>
+      </div>
+      <div class="advantage-item fade-up">
+        <div class="advantage-num">06</div>
+        <h4>True Partnership</h4>
+        <p>We embed within your workflows, align with your goals, and act as a genuine extension of your internal team — not just a vendor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ CSR ══════════════════════ -->
+<section class="section about-csr" style="background:var(--gray-50);">
+  <div class="container">
+    <div class="about-csr-inner">
+      <div class="fade-up">
+        <span class="badge badge-blue">Our Commitment</span>
+        <h2>Corporate Social Responsibility</h2>
+        <p>At Erigo, we believe that business success and social impact are not mutually exclusive — they go hand in hand. Our CSR commitments span community healthcare access, employee wellbeing, environmental stewardship, and digital education.</p>
+        <div class="csr-pillars">
+          <div class="csr-pillar">
+            <span class="material-symbols-outlined" style="color:var(--coral);">favorite</span>
+            <div>
+              <strong>Community Health</strong>
+              <p>Free health camps &amp; tele-consultations for underserved communities.</p>
+            </div>
+          </div>
+          <div class="csr-pillar">
+            <span class="material-symbols-outlined" style="color:#0e9f7e;">school</span>
+            <div>
+              <strong>Digital Literacy</strong>
+              <p>Healthcare IT training programs for emerging talent across India &amp; Colombia.</p>
+            </div>
+          </div>
+          <div class="csr-pillar">
+            <span class="material-symbols-outlined" style="color:#7c3aed;">eco</span>
+            <div>
+              <strong>Sustainability</strong>
+              <p>Carbon-neutral operations target by 2030 with green office initiatives.</p>
+            </div>
+          </div>
+          <div class="csr-pillar">
+            <span class="material-symbols-outlined" style="color:#f59e0b;">diversity_3</span>
+            <div>
+              <strong>Diversity &amp; Inclusion</strong>
+              <p>55% female workforce, inclusive hiring policies, and D&amp;I leadership programs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-csr-image fade-up">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDy7rtbBEBcEOk3tj-zKmS2qeU00rj_7lATTh7-8AEGo-p42EfZI9DYPJnRDbjy4-NioR1uTm6JY55xw7bo1kzNlpCPZL0ye0YoUVPFWfdZ5LTgOPcqtXLBT2xbIZtOkOH5d8HxptckXjg44cJWaMuFMC1aaopC4BLz98GreuEJIyyxXdrv1ajpWNusbLsqIM_mE0fRGM1JcZ9tUK7iHZ2cRkkyYRc1wpfmxWSuIfd-PrPKruhAOYI8H_S94x4RIEMD3i777XO73m8" alt="CSR — Community health"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ JOIN US CTA ══════════════════════ -->
+<section class="cta-band">
+  <div class="container">
+    <div class="cta-band-inner">
+      <div>
+        <h2>Ready to Partner with Erigo?</h2>
+        <p>Let's explore how our technology-led, clinically enabled approach can transform your operations and outcomes.</p>
+      </div>
+      <a href="index.html#contact" class="btn btn-white">Contact Us Today</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="material-symbols-outlined" style="color:var(--white);font-size:1.8rem;">medical_services</span>
+          <div>
+            <span class="logo-text-primary" style="color:var(--white);">ERIGO</span>
+            <span class="logo-text-sub">Healthcare Solutions</span>
+          </div>
+        </div>
+        <p>Technology-driven, clinically enabled solutions that empower the healthcare ecosystem to thrive.</p>
+      </div>
+      <div class="footer-col" id="who-we-serve">
+        <h4>Who We Serve</h4>
+        <a href="#">Provider</a>
+        <a href="#">Payer</a>
+        <a href="#">Life Sciences &amp; Health Tech</a>
+        <a href="#">Industry Partners</a>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <a href="rcm.html">Revenue Cycle Management</a>
+        <a href="care-coordination.html">Care Coordination</a>
+        <a href="data-curation.html">Health Data Curation</a>
+        <a href="solutions.html#payer">Payer Operations</a>
+        <a href="solutions.html#drug">Drug Access &amp; Affordability</a>
+      </div>
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <a href="about.html">Our Company</a>
+        <a href="about.html#leadership">Leadership</a>
+        <a href="about.html#mission">Mission &amp; Values</a>
+        <a href="#">Newsroom</a>
+      </div>
+      <div class="footer-col">
+        <h4>Careers</h4>
+        <a href="#">Work for Us</a>
+        <a href="#">US Careers</a>
+        <a href="#">India Careers</a>
+        <a href="#">Colombia Careers</a>
+        <h4 style="margin-top:16px;">Insights</h4>
+        <a href="#">Blog</a>
+        <a href="#">Case Studies &amp; Resources</a>
+        <a href="#">Events &amp; Webinars</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Erigo Healthcare Management Services. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Compliance Page</a>
+        <a href="index.html#contact">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Success Popup -->
+<div id="success-popup">
+  <div class="popup-inner">
+    <span class="material-symbols-outlined">check_circle</span>
+    <div class="popup-text">
+      <strong>Message Sent!</strong>
+      <p>Thank you for submitting! The team will get back to you shortly.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  #success-popup.show { transform: translateY(0); opacity: 1; }
+
+  /* ══ ABOUT PAGE — LOCAL STYLES ══ */
+
+  /* Hero */
+  .about-hero {
+    position: relative;
+    background: linear-gradient(135deg, #0f2460 0%, #1e3a8a 50%, #2d4a8c 100%);
+    padding: 80px 0 72px;
+    overflow: hidden;
+  }
+  .about-hero-bg {
+    position: absolute; inset: 0;
+    background: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAD7yrXAmIRK-dRqNAbTyxHOymkb29VuBEITF3NX7toIorUP9Nvq0DBwyc6GxPDraNbE5t3DPv4oCZxP9w73Ip1G00OUiU10n6Ov-_0KLqUFkKln0XqWsNgJjK44eUD71h0aL-BMkRKmcVKdrhrAIWo23aj3lAyHVix-A0n5U15C3XrTDllH5BX--pqA3AF1nUEeinihAsacCs-vheJnztCyLc4hG2IuXbNDMoGVDPx6ZlMlgpGNj1WN8uU02rIvUMbIpj7DbSxLzI') center/cover no-repeat;
+    opacity: .08;
+  }
+  .about-hero-content {
+    position: relative;
+    max-width: 700px;
+  }
+  .about-hero-content .badge { margin-bottom: 20px; }
+  .about-hero-content h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  .about-hero-content h1 span { color: var(--coral); }
+  .about-hero-content p {
+    font-size: clamp(.95rem, 2vw, 1.1rem);
+    color: rgba(255,255,255,.82);
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+  .about-hero-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+
+  /* Mission / Vision / Values */
+  .mvv-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 40px;
+  }
+  @media (min-width: 768px) { .mvv-grid { grid-template-columns: repeat(3,1fr); } }
+
+  .mvv-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 32px 28px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.05);
+  }
+  .mvv-icon {
+    width: 52px; height: 52px;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 20px;
+  }
+  .mvv-icon .material-symbols-outlined { font-size: 1.6rem; }
+  .mvv-card h3 {
+    font-size: 1.1rem; font-weight: 700;
+    color: #111827; margin-bottom: 12px;
+  }
+  .mvv-card p { font-size: .9rem; color: #4b5563; line-height: 1.6; }
+  .mvv-values-list { display: flex; flex-direction: column; gap: 8px; }
+  .mvv-values-list li {
+    display: flex; align-items: center; gap: 8px;
+    font-size: .9rem; color: #374151;
+  }
+  .mvv-values-list .material-symbols-outlined { font-size: 1rem; color: #16a34a; }
+
+  /* Story section */
+  .about-story-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .about-story-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .about-story-text .badge { margin-bottom: 16px; }
+  .about-story-text h2 {
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    color: var(--navy); margin-bottom: 16px;
+  }
+  .about-story-text p {
+    font-size: .93rem; color: #4b5563;
+    line-height: 1.7; margin-bottom: 14px;
+  }
+  .about-story-highlights { margin-top: 24px; display: flex; flex-direction: column; gap: 12px; }
+  .story-highlight {
+    display: flex; align-items: center; gap: 10px;
+    font-size: .9rem; font-weight: 500; color: #374151;
+  }
+  .story-highlight .material-symbols-outlined { font-size: 1.1rem; flex-shrink: 0; }
+  .about-story-image img {
+    border-radius: 16px;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    box-shadow: 0 16px 48px rgba(0,0,0,.12);
+  }
+
+  /* Leadership */
+  .leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+  }
+  @media (min-width: 1024px) { .leadership-grid { grid-template-columns: repeat(4,1fr); } }
+
+  .leader-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,.05);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .leader-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,.1); }
+  .leader-avatar {
+    width: 72px; height: 72px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 16px;
+  }
+  .leader-avatar .material-symbols-outlined { font-size: 2rem; color: #fff; }
+  .leader-card h4 { font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 4px; }
+  .leader-title {
+    display: block;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--coral);
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .leader-card p { font-size: .85rem; color: #6b7280; line-height: 1.5; }
+
+  /* Global offices */
+  .global-offices-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 40px;
+  }
+  @media (min-width: 768px) { .global-offices-grid { grid-template-columns: repeat(3,1fr); } }
+
+  .office-card {
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 16px;
+    padding: 32px 28px;
+    transition: background .2s;
+  }
+  .office-card:hover { background: rgba(255,255,255,.14); }
+  .office-flag { font-size: 2.5rem; margin-bottom: 12px; }
+  .office-card h4 { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .office-card > p { font-size: .85rem; color: rgba(255,255,255,.6); margin-bottom: 16px; }
+  .office-card ul { display: flex; flex-direction: column; gap: 7px; }
+  .office-card ul li {
+    font-size: .875rem; color: rgba(255,255,255,.8);
+    padding-left: 14px; position: relative;
+  }
+  .office-card ul li::before {
+    content: '›'; position: absolute; left: 0;
+    color: var(--coral); font-size: 1rem;
+  }
+
+  /* Advantage grid */
+  .advantage-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 40px;
+  }
+  @media (min-width: 640px) { .advantage-grid { grid-template-columns: repeat(2,1fr); } }
+  @media (min-width: 1024px) { .advantage-grid { grid-template-columns: repeat(3,1fr); } }
+
+  .advantage-item {
+    padding: 28px 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: border-color .2s, box-shadow .2s;
+  }
+  .advantage-item:hover { border-color: var(--navy); box-shadow: 0 8px 28px rgba(30,58,138,.1); }
+  .advantage-num {
+    font-family: 'Sora', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #f3f4f6;
+    position: absolute;
+    top: 12px; right: 20px;
+    line-height: 1;
+  }
+  .advantage-item h4 { font-size: .95rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
+  .advantage-item p { font-size: .875rem; color: #4b5563; line-height: 1.6; }
+
+  /* CSR */
+  .about-csr-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  @media (min-width: 768px) { .about-csr-inner { grid-template-columns: 1fr 1fr; } }
+  .about-csr-inner .badge { margin-bottom: 16px; }
+  .about-csr-inner h2 { font-size: clamp(1.5rem, 3vw, 2rem); color: var(--navy); margin-bottom: 14px; }
+  .about-csr-inner > div > p { font-size: .93rem; color: #4b5563; line-height: 1.7; margin-bottom: 24px; }
+  .csr-pillars { display: flex; flex-direction: column; gap: 18px; }
+  .csr-pillar {
+    display: flex; align-items: flex-start; gap: 14px;
+  }
+  .csr-pillar .material-symbols-outlined { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
+  .csr-pillar strong { display: block; font-size: .9rem; color: #111827; margin-bottom: 3px; }
+  .csr-pillar p { font-size: .85rem; color: #6b7280; margin: 0; line-height: 1.5; }
+  .about-csr-image img {
+    width: 100%; height: 360px;
+    object-fit: cover; border-radius: 16px;
+    box-shadow: 0 16px 48px rgba(0,0,0,.12);
+  }
+</style>
+
+<script src="main.js"></script>
+</body>
+</html>

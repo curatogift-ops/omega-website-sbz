@@ -22,31 +22,123 @@
         <span class="logo-text-sub">Healthcare Solutions</span>
       </div>
     </a>
-
     <nav class="nav-links">
       <a href="index.html#who-we-serve">Who We Serve</a>
-      <a href="rcm.html" class="active">Solutions</a>
-      <a href="index.html#technology">Technology</a>
-      <a href="index.html#about">About Us</a>
+      <div class="nav-dropdown-wrapper">
+        <a href="solutions.html" class="nav-dropdown-trigger active">
+          Solutions <span class="material-symbols-outlined nav-chevron">expand_more</span>
+        </a>
+        <div class="mega-menu">
+          <div class="mega-menu-inner">
+            <div class="mega-col">
+              <h4><a href="rcm.html">Revenue Cycle Management</a></h4>
+              <ul>
+                <li><a href="rcm.html">End-To-End RCM</a></li>
+                <li><a href="rcm.html">Patient Access</a></li>
+                <li><a href="rcm.html">Mid-Revenue Cycle</a></li>
+                <li><a href="rcm.html">Business Office</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="care-coordination.html">Care Coordination</a></h4>
+              <ul>
+                <li><a href="care-coordination.html">Phone &amp; Message Triage</a></li>
+                <li><a href="care-coordination.html">Customer Contact Center</a></li>
+                <li><a href="care-coordination.html">Remote Patient Management</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="data-curation.html">Health Data Curation</a></h4>
+              <ul>
+                <li><a href="data-curation.html">Clinical Trial Data Solutions</a></li>
+                <li><a href="data-curation.html">Real-World Data Curation</a></li>
+                <li><a href="data-curation.html">AI/ML Model Validation and Enablement</a></li>
+                <li><a href="data-curation.html">Registry Data Management</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="solutions.html#payer">Payer Operations</a></h4>
+              <ul>
+                <li><a href="solutions.html#payer">Value-based Care</a></li>
+                <li><a href="solutions.html#payer">Provider &amp; Member Engagement</a></li>
+                <li><a href="solutions.html#payer">Administrative Support</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4><a href="solutions.html#drug">Drug Access &amp; Affordability</a></h4>
+              <ul>
+                <li><a href="solutions.html#drug">Member Enrollment</a></li>
+                <li><a href="solutions.html#drug">Benefit Verification</a></li>
+                <li><a href="solutions.html#drug">Prior Authorization</a></li>
+                <li><a href="solutions.html#drug">Patient Co-Pay Assistance</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="index.html#technology">Technology &amp; Clinical Innovation</a>
+      <a href="about.html">About Us</a>
+      <a href="#">Careers</a>
       <a href="index.html#insights">Insights</a>
-      <a href="index.html#contact" class="btn btn-primary nav-cta">Contact Us</a>
+      <a href="index.html#contact" class="btn btn-outline nav-cta">Contact Us</a>
     </nav>
-
     <button class="hamburger" id="hamburger" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
   </div>
-
   <div class="mobile-menu" id="mobile-menu">
-    <div class="container" style="display:flex;flex-direction:column;gap:4px;">
-      <a href="index.html">Home</a>
-      <a href="rcm.html">Revenue Cycle Management</a>
-      <a href="care-coordination.html">Care Coordination</a>
-      <a href="data-curation.html">Health Data Curation</a>
-      <a href="index.html#contact" class="btn btn-coral" style="margin-top:8px;text-align:center;">Contact Us</a>
+    <div class="container mobile-menu-container">
+      <a href="index.html#who-we-serve" class="mobile-link">Who We Serve</a>
+      <div>
+        <button class="mobile-accordion-btn" data-target="mob-solutions" id="mob-solutions-btn">
+          Solutions <span class="material-symbols-outlined">expand_more</span>
+        </button>
+        <div class="mobile-accordion-body" id="mob-solutions">
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Revenue Cycle Management</span>
+            <a href="rcm.html">End-To-End RCM</a>
+            <a href="rcm.html">Patient Access</a>
+            <a href="rcm.html">Mid-Revenue Cycle</a>
+            <a href="rcm.html">Business Office</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Care Coordination</span>
+            <a href="care-coordination.html">Phone &amp; Message Triage</a>
+            <a href="care-coordination.html">Customer Contact Center</a>
+            <a href="care-coordination.html">Remote Patient Management</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Health Data Curation</span>
+            <a href="data-curation.html">Clinical Trial Data Solutions</a>
+            <a href="data-curation.html">Real-World Data Curation</a>
+            <a href="data-curation.html">AI/ML Model Validation</a>
+            <a href="data-curation.html">Registry Data Management</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Payer Operations</span>
+            <a href="solutions.html#payer">Value-based Care</a>
+            <a href="solutions.html#payer">Provider &amp; Member Engagement</a>
+            <a href="solutions.html#payer">Administrative Support</a>
+          </div>
+          <div class="mobile-sub-group">
+            <span class="mobile-sub-heading">Drug Access &amp; Affordability</span>
+            <a href="solutions.html#drug">Member Enrollment</a>
+            <a href="solutions.html#drug">Benefit Verification</a>
+            <a href="solutions.html#drug">Prior Authorization</a>
+            <a href="solutions.html#drug">Patient Co-Pay Assistance</a>
+          </div>
+        </div>
+      </div>
+      <a href="index.html#technology" class="mobile-link">Technology &amp; Clinical Innovation</a>
+      <a href="about.html" class="mobile-link">About Us</a>
+      <a href="#" class="mobile-link">Careers</a>
+      <a href="index.html#insights" class="mobile-link">Insights</a>
+      <hr/>
+      <a href="index.html#contact" class="mobile-menu-cta">Contact Us</a>
     </div>
   </div>
 </header>
+
 
 <!-- ══════════════════════ PAGE HERO ══════════════════════ -->
 <section class="page-hero">
